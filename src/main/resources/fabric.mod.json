@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "reallybouncyballs",
+	"version": "${version}",
+	"name": "ReallyBouncyBalls",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "AGPL-3.0-only",
+	"icon": "assets/reallybouncyballs/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			{
+				"value": "wtf.koder.ReallyBouncyBalls",
+				"adapter": "kotlin"
+			}
+		],
+		"client": [
+			{
+				"value": "wtf.koder.client.ReallyBouncyBallsClient",
+				"adapter": "kotlin"
+			}
+		]
+	},
+	"mixins": [
+		"reallybouncyballs.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"fabric-language-kotlin": "*"
+	}
+}

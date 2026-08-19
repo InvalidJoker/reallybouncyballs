@@ -1,0 +1,15 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"group": "reallybouncyballs_dyed_bouncy_ball",
+	"ingredients": [
+		"reallybouncyballs:bouncy_ball",
+		"minecraft:blue_dye"
+	],
+	"result": {
+		"id": "reallybouncyballs:bouncy_ball",
+		"components": {
+			"minecraft:dyed_color": 3949738
+		}
+	}
+}
